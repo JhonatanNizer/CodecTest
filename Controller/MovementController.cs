@@ -88,5 +88,11 @@ namespace Controller
             }
             return position;
         }
+
+
+        public static void MoveRobotThroughGrid(List<char> input, Grid grid, Robot robot)
+        {
+            
+        }
     }
 }
