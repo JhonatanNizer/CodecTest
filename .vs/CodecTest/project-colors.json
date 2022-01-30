@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e38d7b87-9e75-46d3-95d3-1708f82c9cd4": {
+      "ProjectGuid": "e38d7b87-9e75-46d3-95d3-1708f82c9cd4",
+      "DisplayName": "CodecTest",
+      "ColorIndex": 0
+    },
+    "48abe455-9513-4a01-a4a8-ff483f582eae": {
+      "ProjectGuid": "48abe455-9513-4a01-a4a8-ff483f582eae",
+      "DisplayName": "Controller",
+      "ColorIndex": 1
+    },
+    "1778f587-0a43-43b2-9997-291d8b51cd5f": {
+      "ProjectGuid": "1778f587-0a43-43b2-9997-291d8b51cd5f",
+      "DisplayName": "Model",
+      "ColorIndex": 2
+    },
+    "12ee8ea3-95be-4e27-b2d9-cfb8d42a11da": {
+      "ProjectGuid": "12ee8ea3-95be-4e27-b2d9-cfb8d42a11da",
+      "DisplayName": "UnitTests",
+      "ColorIndex": 3
+    },
+    "9e00d4cc-c1f9-4d9b-9a59-765866b50422": {
+      "ProjectGuid": "9e00d4cc-c1f9-4d9b-9a59-765866b50422",
+      "DisplayName": "WPF",
+      "ColorIndex": 4
+    },
+    "79916641-99e1-4377-a689-e030ae63cd48": {
+      "ProjectGuid": "79916641-99e1-4377-a689-e030ae63cd48",
+      "DisplayName": "WPF",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

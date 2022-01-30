@@ -97,3 +97,15 @@ C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\obj\Debug\net6.0\UnitTests.d
 C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\obj\Debug\net6.0\ref\UnitTests.dll
 C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\obj\Debug\net6.0\UnitTests.pdb
 C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\obj\Debug\net6.0\UnitTests.genruntimeconfig.cache
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\Controller.dll
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\Model.dll
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\Controller.pdb
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\Model.pdb
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\xunit.abstractions.dll
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\xunit.assert.dll
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\xunit.core.dll
+C:\Users\jhona\Documents\GitHub\CodecTest\UnitTests\bin\Debug\net6.0\xunit.execution.dotnet.dll

@@ -6,7 +6,7 @@ namespace Controller
     {
         public Position MoveBackward(Position position)
         {
-            switch (position.direction)
+            switch (position.Direction)
             {
                 case Position.CardinalDirection.NORTH:
                     position.Y--;
@@ -25,9 +25,9 @@ namespace Controller
             }
             return position;
         }
-        public Position MoveFoward(Position position)
+        public Position MoveForward(Position position)
         {
-            switch (position.direction)
+            switch (position.Direction)
             {
                 case Position.CardinalDirection.NORTH:
                     position.Y++;
@@ -48,19 +48,19 @@ namespace Controller
         }
         public Position RotateLeft(Position position)
         {
-            switch (position.direction)
+            switch (position.Direction)
             {
                 case Position.CardinalDirection.NORTH:
-                    position.direction = Position.CardinalDirection.WEST;
+                    position.Direction = Position.CardinalDirection.WEST;
                     break;
                 case Position.CardinalDirection.EAST:
-                    position.direction = Position.CardinalDirection.NORTH;
+                    position.Direction = Position.CardinalDirection.NORTH;
                     break;
                 case Position.CardinalDirection.SOUTH:
-                    position.direction = Position.CardinalDirection.EAST;
+                    position.Direction = Position.CardinalDirection.EAST;
                     break;
                 case Position.CardinalDirection.WEST:
-                    position.direction = Position.CardinalDirection.SOUTH;
+                    position.Direction = Position.CardinalDirection.SOUTH;
                     break;
                 default:
                     break;
@@ -69,19 +69,19 @@ namespace Controller
         }
         public Position RotateRight(Position position)
         {
-            switch (position.direction)
+            switch (position.Direction)
             {
                 case Position.CardinalDirection.NORTH:
-                    position.direction = Position.CardinalDirection.EAST;
+                    position.Direction = Position.CardinalDirection.EAST;
                     break;
                 case Position.CardinalDirection.EAST:
-                    position.direction = Position.CardinalDirection.SOUTH;
+                    position.Direction = Position.CardinalDirection.SOUTH;
                     break;
                 case Position.CardinalDirection.SOUTH:
-                    position.direction = Position.CardinalDirection.WEST;
+                    position.Direction = Position.CardinalDirection.WEST;
                     break;
                 case Position.CardinalDirection.WEST:
-                    position.direction = Position.CardinalDirection.NORTH;
+                    position.Direction = Position.CardinalDirection.NORTH;
                     break;
                 default:
                     break;

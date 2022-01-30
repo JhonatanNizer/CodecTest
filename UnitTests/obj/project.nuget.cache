@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IU2WB+KtqY+MSB5qq+KipcuT1ZZunYndFvtJ6+m8hNO19RXwvCR+i46hqfkmmR/IoQuGpzNccrjxJ3E2h8QGAA==",
+  "dgSpecHash": "zaUyioRbeFbNbwb2XXo5xI11NOJe6W96i2YLAZ2q6I+oM7TaMZ0WqNvyIsCPFwiVNfRfP0sAsy+kNqpQtJXm0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhona\\Documents\\GitHub\\CodecTest\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
@@ -49,7 +49,15 @@
     "C:\\Users\\jhona\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
+    "C:\\Users\\jhona\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }
