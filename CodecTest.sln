@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{48ABE455-9513-4A01-A4A8-FF483F582EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller", "Controller\Controller.csproj", "{48ABE455-9513-4A01-A4A8-FF483F582EAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{1778F587-0A43-43B2-9997-291D8B51CD5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{1778F587-0A43-43B2-9997-291D8B51CD5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{12EE8EA3-95BE-4E27-B2D9-CFB8D42A11DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{12EE8EA3-95BE-4E27-B2D9-CFB8D42A11DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{79916641-99E1-4377-A689-E030AE63CD48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{8F01BAAA-76E9-40B8-9655-257FC73B3B8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{12EE8EA3-95BE-4E27-B2D9-CFB8D42A11DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12EE8EA3-95BE-4E27-B2D9-CFB8D42A11DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12EE8EA3-95BE-4E27-B2D9-CFB8D42A11DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79916641-99E1-4377-A689-E030AE63CD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79916641-99E1-4377-A689-E030AE63CD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79916641-99E1-4377-A689-E030AE63CD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79916641-99E1-4377-A689-E030AE63CD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F01BAAA-76E9-40B8-9655-257FC73B3B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F01BAAA-76E9-40B8-9655-257FC73B3B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F01BAAA-76E9-40B8-9655-257FC73B3B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F01BAAA-76E9-40B8-9655-257FC73B3B8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
