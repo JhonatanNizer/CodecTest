@@ -22,9 +22,9 @@ namespace Controller.Helpers
             return int.Parse(heigth);
         }
 
-        public static List<char> GetCharsFromInput(string input)
+        public static List<char> GetValidCharsFromInput(string input)
         {
-            List<char> charsToKeep = new List<char> { 'F', 'R', 'L' };
+            List<char> charsToKeep = new List<char> { 'F', 'R', 'L', 'S' };
             string newInput = string.Empty;
             foreach (char c in input) {
                 if (charsToKeep.Contains(c)) {

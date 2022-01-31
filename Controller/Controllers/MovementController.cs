@@ -90,9 +90,101 @@ namespace Controller.Controllers
             return position;
         }        
 
-        public static void MoveRobotThroughGrid(List<char> input, Grid grid, Robot robot)
+        public void MoveRobotThroughGrid(List<char> input, Grid grid, Robot robot)
         {
-            
+            foreach (char c in input)
+            {
+                switch (c)
+                {
+                    case 'F':
+                        if(CanMoveForward(grid, robot))
+                            robot.CurrentPosition = MoveForward(robot.CurrentPosition);
+                        break;
+                    case 'R':
+                        robot.CurrentPosition = RotateRight(robot.CurrentPosition);
+                        break;
+                    case 'L':
+                        robot.CurrentPosition = RotateLeft(robot.CurrentPosition);
+                        break;
+                    case 'S':
+                        if (CanMoveBackward(grid, robot))
+                            robot.CurrentPosition = MoveBackward(robot.CurrentPosition);
+                        break;
+                    default:
+                        break;
+                }
+                
+                Console.WriteLine("Input: {3} - Current Position: X: {0}, Y: {1}, Direction: {2}",
+                    robot.CurrentPosition.X,
+                    robot.CurrentPosition.Y,
+                    robot.CurrentPosition.Direction,
+                    c.ToString());
+            }
+        }
+
+        private bool CanMoveForward(Grid grid, Robot robot)
+        {
+            if(robot.CurrentPosition.Direction == Position.CardinalDirection.NORTH)
+            {
+                if (robot.CurrentPosition.Y == grid.Height)
+                {
+                    return false;
+                }
+            } 
+            else if (robot.CurrentPosition.Direction == Position.CardinalDirection.EAST)
+            {
+                if (robot.CurrentPosition.X == grid.Width)
+                {
+                    return false;
+                }
+            }
+            else if (robot.CurrentPosition.Direction == Position.CardinalDirection.SOUTH)
+            {
+                if (robot.CurrentPosition.Y == 1)
+                {
+                    return false;
+                }
+            }
+            else if (robot.CurrentPosition.Direction == Position.CardinalDirection.WEST)
+            {
+                if (robot.CurrentPosition.X == 1)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        private bool CanMoveBackward(Grid grid, Robot robot)
+        {
+            if (robot.CurrentPosition.Direction == Position.CardinalDirection.NORTH)
+            {
+                if (robot.CurrentPosition.Y == 1)
+                {
+                    return false;
+                }
+            }
+            else if (robot.CurrentPosition.Direction == Position.CardinalDirection.EAST)
+            {
+                if (robot.CurrentPosition.X == 1)
+                {
+                    return false;
+                }
+            }
+            else if (robot.CurrentPosition.Direction == Position.CardinalDirection.SOUTH)
+            {
+                if (robot.CurrentPosition.Y == grid.Height)
+                {
+                    return false;
+                }
+            }
+            else if (robot.CurrentPosition.Direction == Position.CardinalDirection.WEST)
+            {
+                if (robot.CurrentPosition.X == grid.Width)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

@@ -20,12 +20,14 @@ namespace Controller.Controllers
 
             Robot robot = new Robot();
 
+            MovementController movementController = new MovementController();
             while (true)
             {
                 Console.WriteLine("Set robot input (F, R, L):");
                 var userInput = Console.ReadLine();
-                List<Char> input = InputHelper.GetCharsFromInput(userInput);
-                MovementController.MoveRobotThroughGrid(input, grid, robot);
+                List<Char> input = InputHelper.GetValidCharsFromInput(userInput);
+
+                movementController.MoveRobotThroughGrid(input, grid, robot);
             }
         }
     }
