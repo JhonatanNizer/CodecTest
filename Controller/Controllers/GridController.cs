@@ -1,6 +1,7 @@
-﻿using Model;
+﻿using Controller.Interfaces;
+using Model;
 
-namespace Controller
+namespace Controller.Controllers
 {
     public class GridController : IGridController
     {

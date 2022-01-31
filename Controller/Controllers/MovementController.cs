@@ -1,6 +1,7 @@
-﻿using Model;
+﻿using Controller.Interfaces;
+using Model;
 
-namespace Controller
+namespace Controller.Controllers
 {
     public class MovementController : IMovementController
     {
@@ -87,9 +88,9 @@ namespace Controller
                     break;
             }
             return position;
-        }
+        }        
 
-        public static void MoveRobotThroughGrid(List<char> input)
+        public static void MoveRobotThroughGrid(List<char> input, Grid grid, Robot robot)
         {
             
         }

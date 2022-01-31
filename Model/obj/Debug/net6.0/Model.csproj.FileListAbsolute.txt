@@ -9,4 +9,3 @@ C:\Users\jhona\Documents\GitHub\CodecTest\Model\obj\Debug\net6.0\Model.csproj.Co
 C:\Users\jhona\Documents\GitHub\CodecTest\Model\obj\Debug\net6.0\Model.dll
 C:\Users\jhona\Documents\GitHub\CodecTest\Model\obj\Debug\net6.0\ref\Model.dll
 C:\Users\jhona\Documents\GitHub\CodecTest\Model\obj\Debug\net6.0\Model.pdb
-C:\Users\jhona\Documents\GitHub\CodecTest\Model\obj\Debug\net6.0\Model.csproj.AssemblyReference.cache

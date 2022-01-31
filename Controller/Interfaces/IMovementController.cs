@@ -1,6 +1,6 @@
 ﻿using Model;
 
-namespace Controller
+namespace Controller.Interfaces
 {
     public interface IMovementController
     {

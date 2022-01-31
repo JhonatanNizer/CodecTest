@@ -1,11 +1,11 @@
-﻿using System.Linq;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
-namespace ConsoleApp.Helpers
+namespace Controller.Helpers
 {
     public static class InputHelper
     {
         private static readonly string SIZE_PATTERN = @"([0-9]+)(x|X)([0-9]+)";
+
         public static int GetWidthFromInput(string input)
         {
             Regex regex = new Regex(SIZE_PATTERN);

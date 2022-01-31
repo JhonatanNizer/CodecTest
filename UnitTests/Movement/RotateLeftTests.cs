@@ -1,4 +1,5 @@
-using Controller;
+using Controller.Controllers;
+using Controller.Interfaces;
 using Model;
 using Xunit;
 
