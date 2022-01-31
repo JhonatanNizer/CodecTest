@@ -23,7 +23,7 @@ namespace Controller.Controllers
             MovementController movementController = new MovementController();
             while (true)
             {
-                Console.WriteLine("Set robot input (F, R, L):");
+                Console.WriteLine("Set robot input (F, R, L, S):");
                 var userInput = Console.ReadLine();
                 List<Char> input = InputHelper.GetValidCharsFromInput(userInput);
 
